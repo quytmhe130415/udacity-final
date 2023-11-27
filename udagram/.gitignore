@@ -1,1 +1,3 @@
-node_modules
+node_modulesset_env.sh
+.idea
+.DS_Store
