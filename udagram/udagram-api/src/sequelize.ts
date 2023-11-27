@@ -8,5 +8,8 @@ export const sequelize = new Sequelize({
   host: config.host,
 
   dialect: "postgres",
-  storage: ":memory:",
+  ssl: 'require',
+  connection: {
+    options: `project=ep-sweet-fire-00580533`,
+  },
 });
